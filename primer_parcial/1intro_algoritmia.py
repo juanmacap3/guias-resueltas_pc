@@ -1,7 +1,7 @@
 """ 
-Este archivo es para darte una mano con los ejercicios que no entendes. Tene en cuenta 
-que con distintas implementaciones podes llegar al mismo resultado, asi que si 
-pudiste cumplir el enunciado de otra manera también es correcto.
+===============================
+Si es la primera vez que abrís uno de estos archivos te recomiendo mirar el readme.
+===============================
  """
 
 # Enunciado
@@ -35,7 +35,12 @@ de la variable en lugar del “¡Hola mundo!”.
 # Implementación:
 numero = int(input("Ingrese un número: ")) # Pido un número al usuario.
 print(numero) # Lo muestro por pantalla.
-
+# Aclaración
+""" 
+input() guarda la entrada como un string. Por ejemplo si el usuario ingresa un 7, se guarda como el texto "7" no el número 7.
+int() convierte el texto entre los parentesis en un número.
+Por eso escribí int(input(...))
+ """
 # Enunciado
 """ 
 Vamos con otro un poco más complejo. Para el siguiente programa a realizar, se pide hacer dos variables
@@ -56,14 +61,14 @@ más variables?
  """
 # Implementación:
 # Le pido al usuario dos números.
-primer_numero : int = int(input("Ingrese un primer número: "))
-segundo_numero : int = int(input("Ingrese un segundo número: "))
+primer_numero = int(input("Ingrese un primer número: "))
+segundo_numero = int(input("Ingrese un segundo número: "))
 
 # Guardo en distintas variables algunas operaciones entre ellos.
-diferencia : int = primer_numero - segundo_numero
-producto : int = primer_numero * segundo_numero
-division : float = primer_numero / segundo_numero
-resto : int = primer_numero % segundo_numero
+diferencia = primer_numero - segundo_numero
+producto = primer_numero * segundo_numero
+division = primer_numero / segundo_numero
+resto = primer_numero % segundo_numero # Este operador devuelve el resto de la división.
 
 # Muestro por pantalla el valor de cada variable, es decir el resultado de cada operación.
 print("Esta es la resta entre los números ingresados: ", diferencia)
