@@ -204,5 +204,5 @@ if 'a' in sub_palabra: # Verifico que la palabra contenga la letra a.
     for i in range(len(sub_palabra)): # Recorro la palabra, letra por letra.
         if sub_palabra[i] != 'a': # Verifico si la letra no es la a.
             sub_palabra_aux += sub_palabra[i] # Si la letra no es una a, la agrego al string vacío que definí antes.
-    sub_palabra = sub_palabra_aux # Sobreescribo el valor de la palabra ingresada por la que no tiene a
-print(sub_palabra) # Lo muestro por pantalla
+    sub_palabra = sub_palabra_aux # Sobreescribo el valor de la palabra ingresada por la que no tiene a.
+print(sub_palabra) # Lo muestro por pantalla.
